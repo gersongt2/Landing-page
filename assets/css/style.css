@@ -1,0 +1,147 @@
+body , html{ 
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    padding:0px; 
+    background-size: cover;
+}
+#header{
+    display: flex;
+    height: 100px;
+   
+    justify-content: end;
+    align-items: center;
+}
+.title{
+    display: flex;
+    align-items: start;
+    height: 120px;
+    margin-right: 2px;
+}
+.title button{
+    margin-left: 5px;
+    background-color: #0a6bc5;
+}
+
+
+#main{
+  
+    display: flex;
+    justify-content: center;
+    
+}
+#mainback{
+    display: flex;
+    justify-content: end;
+    width: 1000px;
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 10px ;
+}
+.img_background{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 400px;
+    
+    margin-right: 60px;
+}
+
+.img_global{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+}
+.imgc:hover{
+    background-color: #ccc;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.imgc{
+    width: 400px;
+    height: 200px;
+    -moz-transition: all 0.3s;
+    -webkit-transition:all 0.3s ;
+    transition: all 0.3s;
+}
+
+.desc_background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    display: flex;
+    width: 360px;
+    background-color: #8abce7;
+    border-radius: 10px;
+    
+    
+}
+
+.nomepd{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+   
+}
+.sobre{
+    margin-bottom: 50px;
+}
+.sobre ul li{
+    margin-bottom: 20px;
+}
+.preço{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.title_preço{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    
+}
+.quanto{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+button{
+    padding: 15px 30px;
+    background-color: #ffff;
+    border-radius: 10%;
+    border: none;
+    margin-top: 40px;
+    transition: 1s;
+    
+}
+button a{
+    text-decoration: none;
+    color: #000;
+}
+button:hover{
+    
+    background-color: #ccc;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #687b86;
+    height: 50px;
+    margin-top: 150px;
+}
+.footertext{
+    margin-top: 2px;
+    color: #fff;
+    font-size: 17PX;
+}
